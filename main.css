@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+div{
+background-color:black;
+
+z-index: 999;
+
+}
+.logo1{
+    height: 50px;
+    width: auto;
+    margin-left: 40px;
+    
+}
+.logo{
+height: 50px;
+width: 10000px;
+}
+
+nav{
+    align-items: center;
+    position: fixed;
+    top:0;
+    height: 50px;
+    z-index: 999;
+    
+}
+
+.Box{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: right;
+
+    padding:  10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    gap: 12px;
+}
